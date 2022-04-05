@@ -8,14 +8,10 @@ medCompaniesRouter.get('/medCompanies', async (_, res) => {
    let result = await getAll();
    res.send(result)
 
+
+
+
     })
  export default medCompaniesRouter;
 
 
-
-
-
-    // if (!result.success) {
-    //     res.status(500).send(result)
-    // } else {
-    // }
